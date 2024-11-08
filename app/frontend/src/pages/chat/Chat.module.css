@@ -108,6 +108,11 @@
     margin-bottom: 1.25rem;
 }
 
+.chatIcon {
+    height: 256px;
+    width: 256px;
+}
+
 @media (min-width: 992px) {
     .container {
         margin-top: 1.25rem;
