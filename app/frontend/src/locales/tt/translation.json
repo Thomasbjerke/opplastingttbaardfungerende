@@ -1,0 +1,154 @@
+{
+    "pageTitle": "Trygg Trafikk: Chat Bård",
+    "headerTitle": "Chat Bård",
+    "chat": "Chat",
+    "qa": "Still et spørsmål",
+    "login": "Logg inn",
+    "logout": "Logg ut",
+    "clearChat": "Tøm chat",
+    "history": {
+        "chatHistory": "Chathistorikk",
+        "openChatHistory": "Åpne chathistorikk",
+        "noHistory": "Ingen chathistorikk",
+        "deleteModalTitle": "Slett chathistorikk",
+        "deleteModalDescription": "Denne handlingen kan ikke angres. Slette denne chathistorikken?",
+        "deleteLabel": "Slett",
+        "cancelLabel": "Avbryt",
+        "today": "I dag",
+        "yesterday": "I går",
+        "last7days": "Siste 7 dager",
+        "last30days": "Siste 30 dager"
+    },
+    "upload": {
+        "fileLabel": "Last opp fil:",
+        "uploadedFilesLabel": "Tidligere opplastede filer:",
+        "noFilesUploaded": "Ingen filer er lastet opp ennå",
+        "loading": "Laster...",
+        "manageFileUploads": "Administrer filopplastinger",
+        "uploadingFiles": "Laster opp filer...",
+        "uploadedFileError": "Feil ved opplasting av fil - prøv igjen eller kontakt administrator.",
+        "deleteFile": "Slett fil",
+        "deletingFile": "Sletter fil...",
+        "errorDeleting": "Feil ved sletting.",
+        "fileDeleted": "Fil slettet"
+    },
+    "developerSettings": "Utviklerinnstillinger",
+
+    "chatEmptyStateTitle": "Chat med dine data",
+    "chatEmptyStateSubtitle": "Spør om hva som helst eller prøv et eksempel",
+    "defaultExamples": {
+        "1": "Hva sier veitrafikkloven paragraf 3?",
+        "2": "Hva er visjonen til Trygg Trafikk?",
+        "3": "Hva er viktig å tenke på som myk trafikant?",
+        "placeholder": "Skriv et nytt spørsmål..."
+    },
+    "askTitle": "Spør om dine data",
+    "gpt4vExamples": {
+        "1": "Sammenlign effekten av renter og BNP på finansmarkedene.",
+        "2": "Hva er forventet trend for S&P 500-indeksen de neste fem årene? Sammenlign med tidligere S&P 500-prestasjoner",
+        "3": "Kan du identifisere noen korrelasjon mellom oljepriser og aksjemarkedsutvikling?",
+        "placeholder": "Eksempel: Dekker planen min årlige synsundersøkelser?"
+    },
+    "generatingAnswer": "Genererer svar",
+    "citationWithColon": "Kilde:",
+    "followupQuestions": "Oppfølgingsspørsmål:",
+
+    "tooltips": {
+        "submitQuestion": "Send inn spørsmål",
+        "askWithVoice": "Still spørsmål med stemme",
+        "stopRecording": "Stopp opptak av spørsmål",
+        "showThoughtProcess": "Vis tankeprosess",
+        "showSupportingContent": "Vis støttende innhold",
+        "speakAnswer": "Les opp svaret",
+        "info": "Info",
+        "save": "Lagre"
+    },
+
+    "headerTexts": {
+        "thoughtProcess": "Tankeprosess",
+        "supportingContent": "Støttende innhold",
+        "citation": "Kilde"
+    },
+
+    "labels": {
+        "toggleMenu": "Veksle meny",
+        "languagePicker": "Velg språk",
+        "headerText": "Konfigurer svargenerering",
+        "closeButton": "Lukk",
+        "promptTemplate": "Overstyr prompt-mal",
+        "temperature": "Temperatur",
+        "seed": "Seed",
+        "minimumSearchScore": "Minimum søkescore",
+        "minimumRerankerScore": "Minimum reranker-score",
+        "retrieveCount": "Hent så mange søkeresultater:",
+        "includeCategory": "Inkluder kategori",
+        "includeCategoryOptions": {
+            "all": "Alle"
+        },
+        "excludeCategory": "Ekskluder kategori",
+        "useSemanticRanker": "Bruk semantisk rangerer for søk",
+        "useSemanticCaptions": "Bruk semantiske beskrivelser",
+        "useSuggestFollowupQuestions": "Foreslå oppfølgingsspørsmål",
+        "useGPT4V": "Bruk GPT vision-modellen",
+        "gpt4VInput": {
+            "label": "GPT vision-modellens input",
+            "options": {
+                "textAndImages": "Bilder og tekst",
+                "images": "Bilder",
+                "texts": "Tekst"
+            }
+        },
+        "retrievalMode": {
+            "label": "Hentemodus",
+            "options": {
+                "hybrid": "Vektorer + tekst (Hybrid)",
+                "vectors": "Vektorer",
+                "texts": "Tekst"
+            }
+        },
+        "vector": {
+            "label": "Vektorfelt (Multi-query vektorsøk)",
+            "options": {
+                "embedding": "Tekstembedding",
+                "imageEmbedding": "Bildeembedding",
+                "both": "Tekst og bildeembedding"
+            }
+        },
+        "useOidSecurityFilter": "Bruk oid-sikkerhetsfilter",
+        "useGroupsSecurityFilter": "Bruk gruppers sikkerhetsfilter",
+        "shouldStream": "Strøm chat fullføringssvar"
+    },
+
+    "helpTexts": {
+        "promptTemplate":
+            "Overstyrer prompten brukt for å generere svaret basert på spørsmålet og søkeresultatene. For å legge til eksisterende prompt i stedet for å erstatte hele, start prompten med '>>>'.",
+        "temperature":
+            "Setter temperaturen for forespørselen til LLM som genererer svaret. Høyere temperaturer gir mer kreative svar, men de kan være mindre forankrede.",
+        "seed": "Setter en seed for å forbedre modellens svarreproduserbarhet. Seed kan være et hvilket som helst heltall.",
+        "searchScore":
+             "Setter en minimum score for søkeresultater fra Azure AI-søk. Scorens område avhenger av om du bruker hybrid (standard), kun vektorer, eller kun tekst.",
+        "rerankerScore":
+             "Setter en minimum score for søkeresultater fra den semantiske rerankeren. Scoren varierer alltid mellom 0-4. Jo høyere score, desto mer semantisk relevant er resultatet for spørsmålet.",
+        "retrieveNumber":
+             "Angir antall søkeresultater som hentes fra Azure AI-søk. Flere resultater kan øke sjansen for å finne riktig svar, men kan føre til at modellen 'går seg vill' midt i prosessen.",
+        "includeCategory":
+            "Angir en kategori som skal inkluderes i søkeresultatene. Det er ingen kategorier brukt i standarddatasettet.",
+         "excludeCategory":
+            "Angir en kategori som skal ekskluderes fra søkeresultatene. Det er ingen kategorier brukt i standarddatasettet.",
+         "useSemanticReranker":
+            "Aktiverer Azure AI-søk sin semantiske rangerer, en modell som rangerer søkeresultater basert på semantisk likhet med brukerens spørsmål.",
+        "useSemanticCaptions":
+             "Sender semantiske beskrivelser til LLM i stedet for hele søkeresultatet. En semantisk beskrivelse blir hentet fra et søkeresultat under prosessen med semantisk rangering.",
+        "suggestFollowupQuestions": "Ber LLM foreslå oppfølgingsspørsmål basert på brukerens spørsmål.",
+         "useGPT4Vision": "Bruker GPT-4-Turbo med Vision for å generere svar basert på bilder og tekst fra indeksen.",
+        "vectorFields":
+            "Angir hvilke embedding-felt i Azure AI-søkeindeksen som skal søkes i, både 'Bilder og tekst', kun 'Bilder', eller kun 'Tekst'.",
+        "gpt4VisionInputs":
+            "Angir hva som vil bli sendt til vision-modellen. 'Bilder og tekst' sender både bilder og tekst til modellen, 'Bilder' sender kun bilder, og 'Tekst' sender kun tekst.",
+        "retrievalMode":
+            "Angir hentemodus for Azure AI-søkespørringen. `Vektorer + tekst (Hybrid)` bruker en kombinasjon av vektorsøk og fulltekstsøk, `Vektorer` bruker kun vektorsøk, og `Tekst` bruker kun fulltekstsøk. Hybrid er generelt optimalt.",
+        "streamChat": "Strømmer svaret til chatgrensesnittet etter hvert som det genereres.",
+        "useOidSecurityFilter": "Filtrer søkeresultater basert på den autentiserte brukerens OID.",
+        "useGroupsSecurityFilter": "Filtrer søkeresultater basert på den autentiserte brukerens grupper."
+    }
+}
