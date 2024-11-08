@@ -64,7 +64,7 @@ i18next
             ptBR: { translation: ptBRTranslation },
             tt: { translation: ttTranslation }
         },
-        fallbackLng: "da",
+        fallbackLng: "tt",
         supportedLngs: Object.keys(supportedLngs),
         debug: import.meta.env.DEV,
         interpolation: {
