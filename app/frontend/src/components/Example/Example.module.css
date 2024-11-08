@@ -11,7 +11,7 @@
 
 .example {
     word-break: break-word;
-    background: #3C3D43;
+    background: #3c3d43;
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -28,10 +28,10 @@
 
 .exampleText {
     margin: 0;
-    font-size: 1.25rem;
-    width: 25rem;
-    padding: 0.5rem;
-    min-height: 4.5rem;
+    font-size: 22px;
+    width: 280px;
+    min-height: 100px;
+    color: white;
 }
 
 .examplesNavList li {

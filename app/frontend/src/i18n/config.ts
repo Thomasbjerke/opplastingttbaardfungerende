@@ -58,7 +58,7 @@ i18next
             nl: { translation: nlTranslation },
             ptBR: { translation: ptBRTranslation }
         },
-        fallbackLng: "en",
+        fallbackLng: "da",
         supportedLngs: Object.keys(supportedLngs),
         debug: import.meta.env.DEV,
         interpolation: {
