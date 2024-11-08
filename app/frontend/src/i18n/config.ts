@@ -44,7 +44,7 @@ export const supportedLngs: { [key: string]: { name: string; locale: string } } 
 
 i18next
     .use(HttpApi)
-    .use(LanguageDetector)
+    //.use(LanguageDetector)
     .use(initReactI18next)
     // init i18next
     // for all options read: https://www.i18next.com/overview/configuration-options
