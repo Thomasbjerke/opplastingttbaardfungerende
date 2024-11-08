@@ -35,7 +35,7 @@
     "developerSettings": "Utviklerinnstillinger",
 
     "chatEmptyStateTitle": "Denne chatbotten svarer på spørsmål om trafikksikkerhet",
-    "chatEmptyStateSubtitle": "Spør om hva som helst eller prøv et eksempel",
+    "chatEmptyStateSubtitle": "Denne chatbotten svarer på spørsmål om trafikksikkerhet",
     "defaultExamples": {
         "1": "Hva sier veitrafikkloven paragraf 3?",
         "2": "Hva er visjonen til Trygg Trafikk?",
