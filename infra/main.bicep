@@ -440,7 +440,7 @@ module acaBackend 'core/host/container-app-upsert.bicep' = if (deploymentTarget 
     acaIdentity
   ]
   params: {
-    name: !empty(backendServiceName) ? backendServiceName : '${abbrs.webSitesContainerApps}backend-${resourceToken}'
+    name: !empty(backendServiceName) ? backendServiceName : 'bardchat'
     location: location
     identityName: (deploymentTarget == 'containerapps') ? acaIdentityName : ''
     exists: webAppExists
